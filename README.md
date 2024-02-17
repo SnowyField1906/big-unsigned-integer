@@ -57,8 +57,9 @@ $$
 ### Algorithms and techniques
 
 - [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform) and [Schönhage–Strassen Algorithm](https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm) for `*` (multiplication)
-- [Exponentiation by Squaring](https://simple.wikipedia.org/wiki/Exponentiation_by_squaring#:~:text=Exponentiating%20by%20squaring%20is%20an,binary%20expansion%20of%20the%20exponent.) for `pow(exp, modulo)`
+- [Right-to-left binary method](https://en.wikipedia.org/wiki/Modular_exponentiation#Memory-efficient_method) for `pow(exp, modulo)`
 - [Bisection Method](https://en.wikipedia.org/wiki/Bisection_method) for `sqrt()`
 - [Extended Euclidean Algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) for `mod_inverse(modulo)`
 - [Euclidean Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) for `gcd(rhs)`
 - [Miller-Rabin Algorithm](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) for `is_prime(times)`
+
